@@ -1,6 +1,4 @@
-#include <iostream>
-#include <vector>
-#include <iomanip> // for setprecision
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -12,7 +10,7 @@ struct Course {
 
 int main() {
     int numCourses;
-    cout << "Enter the number of courses: ";
+    cout<<"Enter the number of courses:";
     cin >> numCourses;
 
     vector<Course> courses(numCourses);
