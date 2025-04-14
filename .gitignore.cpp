@@ -14,7 +14,7 @@ struct Course{
     string letterGrade;
 };
 
-int main(){
+int main() {
     int numCourses;
     cout <<"Enter the number of courses: ";
     cin >> numCourses;
